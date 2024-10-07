@@ -1,0 +1,12 @@
+/* Add this to your CSS file */
+.custom-list-item {
+  transition: background-color 0.3s ease;
+}
+
+.custom-list-item:hover {
+  background-color: #ea6666; /* Hover color */
+}
+
+.custom-list-item.selected {
+  background-color: #55c790; /* Selected color */
+}
